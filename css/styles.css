@@ -1,0 +1,49 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'League Gothic', sans-serif;
+}
+
+h1 {
+    color: #bf0603;
+}
+
+h2 {
+    color: #7f7f7f;
+}
+
+h3 {
+    color: #595959;
+}
+
+
+
+header h2 {
+    color: #595959;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #f2f2f2, #cccccc, #a5a5a5);
+    color: white;
+    margin: 0;
+}
+
+.site-footer {
+    background-image: linear-gradient(#cccccc, #f2f2f2);
+    padding: 20px 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+    justify-content: space-around;
+}
+
+.navbar {
+    background-color: #bf0603;
+}
+

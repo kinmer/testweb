@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=League+Gothic&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>CCSG Website</title>
+</head>
+
+<body>
+
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="img/logo_ccsg.jpg" class="img-fluid" style="box-shadow: 0 0 5px 5px white inset;" width="100px"/>
+                 </div>
+                <div class="col">
+                    <h1>CCSG</h1>
+                    <h2>Find Your Chinese Christianity Study Fellows Here!</h2>
+                </div>
+            </div> 
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <div class="row">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#ccsgNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="col-sm-7">
+                    <div class="collapse navbar-collapse" id="ccsgNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i>About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-commenting fa-lg"></i>Forum</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i>Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3" id="navSearch">
+                    <div class="input-group ps-3 align-items-center">
+                        <div id="navbar-search-autocomplete" class="form-outline">
+                        <input type="search" id="searchbar" class="form-control" placeholder="Search"/>
+                        </div>
+                        <button type="button" class="btn btn-secondary btn-sm">
+                        <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </nav>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-sm-12">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">About</li>
+                </ol>
+                <h2>About Us</h2>
+                <div class="card mb-3">
+                    <img class="card-img-top img-fluid" src="img/pic_main.png" style="box-shadow: 0 0 5px 5px white inset;"  alt="old photo">
+                     <div class="card-body">
+                     <p class="card-text">The China Christianity Studies Group (中國基督宗教研究學會) is a group of scholars from diverse fields and disciplines who share academic interests in Christianity in China, past and present. The CCSG is an affiliate organization of the Association for Asian Studies and the Renaissance Society of America.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content">
+            <div class="col-sm-12" >
+                <h3>Our Mission</h3>
+                <ul class="list-unstyled">
+                    <li><p>Support and further the study of Christianity in China in all scholarly disciplines.</p></li>
+                    <li><p>Hold gatherings and networking events for the study and discussion of Christianity in China.</p></li>
+                    <li><p>Increase awareness and opportunities for collaboration within and across our field and disciplines.</p></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row row-content">
+            <h2>Our Members</h2>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="img/Naomi Thruston.png" alt="Naomi Thurston">
+                     <div class="card-body">
+                    <h5 class="card-title">Director: Naomi Thurston, Ph.D.</h5>
+                    <p class="card-text">Assistant Professor of Theology
+                        <br />Chinese University of Hong Kong</p>
+                    <p class="card-text"><small class="text-muted">naomielainethurston@cuhk.edu.hk</small></p>
+                </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="img/Stephanie Wong.png" alt="Stephanie Wong">
+                  <div class="card-body">
+                    <h5 class="card-title">Assistant Director: Stephanie M. Wong, Ph.D</h5>
+                    <p class="card-text">Assistant Professor of Comparative Theology and Interreligious Studies
+                        <br />Villanova University</p>
+                    <p class="card-text"><small class="text-muted">stephanie.wong@villanova.edu</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="img/Eugenio Menegon.png" alt="Eugenio Menegon">
+                  <div class="card-body">
+                    <h5 class="card-title">CCSG Representative, Renaissance Society of America Eugenio Menegon, Ph.D.</h5>
+                    <p class="card-text">Associate Professor of History
+                        <br/>Boston University</p>
+                    <p class="card-text"><small class="text-muted">emenegon@bu.edu</small></p>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Sites</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a href="http://instagram.com/"><i class="fa fa-wechat"></i></a>
+                    <a href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                    <a href="http://instagram.com/"><i class="fa fa-weibo"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+852 3278 9876"></a><i class="fa fa-phone"></i> +852 3278 9876</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:contact@ccsg.org.hk"></a><i class="fa fa-envelope-o"></i> contact@ccsg.org.hk</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
